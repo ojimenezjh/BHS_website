@@ -1,0 +1,106 @@
+/*
+    CÓDIGOS COLORES:
+    - Azul claro: #41b6e6
+
+    - Azul oscuro: #1e22aa
+    
+*/
+
+
+
+/* Fix the header to the top of the page */
+#logo {
+    filter: saturate(50%);
+    filter: grayscale(100%);
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #41b6e6;
+}
+.header{
+    background-color: #41b6e6;
+}
+
+/* Center the text in the header */
+nav a {
+    text-align: center;
+}
+
+
+.slider {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.img-slider{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+    transition: transform 0.6s ease-in-out;
+}
+.img-slider:first-child{
+    transform: translateX(0%);
+}
+.img-slider:nth-child(2){
+    transform: translateX(100%);
+}
+.img-slider:nth-child(3){
+    transform: translateX(200%);
+}
+
+.titulo-slider{
+    position: relative;
+    text-align: center;
+    top: -500px;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Add background to the slider section */
+.slider {
+    background-color: #eee;
+}
+.img-slider {
+    width: 100%;
+}
+/* Center the text in the form */
+form {
+    text-align: center;
+}
+/* Add padding to the form inputs */
+form input {
+    padding: 1rem;
+}
+/* Style the submit button */
+form button {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: #4c6ef5;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+}
+/* Change the submit button background color on hover */
+form button:hover {
+    background-color: #3b55cc;
+}

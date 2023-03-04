@@ -1,0 +1,16 @@
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow:scroll;
+
+}
+
+#contenedor img{
+    width: 400px;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}

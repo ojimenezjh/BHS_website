@@ -16,9 +16,9 @@
     <header>
         <nav class="bg-blue-100 border-gray-200 px-2 sm:px-4 py-2.5">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
-                <a href="#" class="flex items-center">
-          <img src="../img/Degradado_Logo BHS.svg" style="filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.8));" class="h-16 mr-3 sm:h-20" alt="" />
-        </a>
+                <a href="../index.html" class="flex items-center">
+                    <img src="../img/Degradado_Logo BHS.svg" style="filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.8));" class="h-16 mr-3 sm:h-20" alt="" />
+                </a>
                 <button data-collapse-toggle="navbar-default" type="button"
                     class="inline-flex items-center p-2 ml-3 text-sm text-black rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                     aria-controls="navbar-default" aria-expanded="false">
@@ -67,34 +67,45 @@
     <section class="py-8">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Filosofía de BHS</h2>
-            <div class="flex flex-wrap -mx-4 flex-col items-center">
-                <div class="md:w-1/2 px-4 mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="w-full px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <div class="flex justify-center">
+                            <img src="../img/mision.png" alt="Mision BHS" class="w-1/2">
+                        </div>
                         <div class="p-6 text-center">
                             <h3 class="text-xl font-medium mb-2 text-blue-700">Nuestra misión</h3>
                             <p class="text-gray-600 mb-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui exercitationem rem assumenda libero, eum fuga voluptas temporibus, tempora odit dolore eligendi vel fugiat magnam incidunt autem! Voluptates, quod cupiditate!</p>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2 px-4 mb-8">
+                <div class="w-full px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <div class="flex justify-center">
+                            <img src="../img/vision.png" alt="Mision BHS" class="w-1/2">
+                        </div>
                         <div class="p-6 text-center">
                             <h3 class="text-xl font-medium mb-2 text-blue-700">Nuestra visión</h3>
                             <p class="text-gray-600 mb-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui exercitationem rem assumenda libero, eum fuga voluptas temporibus, tempora odit dolore eligendi vel fugiat magnam incidunt autem! Voluptates, quod cupiditate!</p>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2 px-4 mb-8">
+                <div class="w-full px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <div class="flex justify-center">
+                            <img src="../img/valores.png" alt="Mision BHS" class="w-1/2">
+                        </div>
                         <div class="p-6 text-center">
                             <h3 class="text-xl font-medium mb-2 text-blue-700">Nuestros valores</h3>
                             <p class="text-gray-600 mb-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat qui exercitationem rem assumenda libero, eum fuga voluptas temporibus, tempora odit dolore eligendi vel fugiat magnam incidunt autem! Voluptates, quod cupiditate!</p>
                         </div>
                     </div>
                 </div>
-
+            </div>
+            
+            <div class="grid grid-cols-1">
                 <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">Metodología de trabajo</h2>
-                <div class="md:w-1/2 px-4 mb-8">
+                <div class="w-full px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                         <div class="p-6 text-center">
                             <h3 class="text-xl font-medium mb-2 text-blue-700">Maquinaria</h3>
@@ -102,23 +113,44 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
+            <div class="grid grid-cols-1">
                 <h2 class="text-3xl font-medium text-center mb-4 text-blue-700">¡Conócenos!</h2>
-                <div class="md:w-1/2 px-4 mb-8">
+                <div class="w-full px-4 mb-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
 
                         <div class="p-6 text-center">
                             <h3 class="text-xl font-medium mb-2 text-blue-700">El equipo</h3>
                             <p class="text-gray-600 mb-4 text-justify">Contamos con entrenadores personales y fisioterapeutas multidisciplinares. Si estás orientado al desarrollo de la fuerza y el alto rendimiento, tu meta es ponerte en forma, prepararte para oposiciones (bombero, policia, mosso,...) o quieres complementar alguna otra disciplina que practiques, buscaremos a la persona que mejor se adapte a ti y tus objetivos para sacar tu máximo potencial.</p>
                         </div>
-                        <div class="p-6 text-center">
-                            <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
-                            <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                            <div class="p-6 text-center">
+                                <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
+                                <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
+                            </div>
+                            <div class="p-6 text-center">
+                                <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
+                                <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
+                            </div>
+                            <div class="p-6 text-center">
+                                <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
+                                <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
+                            </div>
+                            <div class="p-6 text-center">
+                                <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
+                                <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
+                            </div>
+                            <div class="p-6 text-center">
+                                <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
+                                <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
+                            </div>
+                            <div class="p-6 text-center">
+                                <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
+                                <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
+                            </div>
                         </div>
-                        <div class="p-6 text-center">
-                            <img class="w-full mb-4 rounded-lg" src="../img/pepitoMartinez.jpg" alt="Imagen de clases">
-                            <a href="#" class="text-blue-500 hover:underline text-xl text-center">Pepito Martinez</a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
